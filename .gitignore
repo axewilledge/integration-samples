@@ -16,6 +16,7 @@
 *.nar
 *.ear
 *.zip
+!ballerina-integrator/samples/*.zip
 *.tar.gz
 *.rar
 *.deb
@@ -50,6 +51,3 @@ generated/
 *Ballerina.lock
 .ballerina
 **/Config.toml
-
-# Ignore zip files
-ballerina-integrator/samples/*.zip
