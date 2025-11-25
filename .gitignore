@@ -50,3 +50,6 @@ generated/
 *Ballerina.lock
 .ballerina
 **/Config.toml
+
+# Ignore zip files
+ballerina-integrator/samples/*.zip
