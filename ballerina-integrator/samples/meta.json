@@ -5,7 +5,6 @@
         "title": "Automated File Processor",
         "description": "A scheduled task that reads a local text file, counts the number of words, and logs the result every five minutes.",
         "icon": "automation",
-        "zipName": "automated-file-processor.zip",
         "isEnabled": true
     },
     {
@@ -14,7 +13,6 @@
         "title": "Weather Data FTP Listener",
         "description": "An FTP listener that connects to the National Weather Service FTP server, retrieves new weather data files, and logs them.",
         "icon": "file",
-        "zipName": "weather-data-listener.zip",
         "isEnabled": true
     },
     {
@@ -23,7 +21,6 @@
         "title": "Stock Price Data Manager",
         "description": "Retrieves a daily summary of stock price data from a public API and uploads it to an FTP server in CSV format.",
         "icon": "automation",
-        "zipName": "stock-price-data-manager.zip",
         "isEnabled": true
     },
     {
@@ -32,7 +29,6 @@
         "title": "Weather-Based Activity Recommender",
         "description": "Combines weather data and AI-powered recommendations to suggest personalized activities based on current weather conditions and user interests.",
         "icon": "automation",
-        "zipName": "weather-based-activity-recommender.zip",
         "isEnabled": true
     },
     {
@@ -41,7 +37,6 @@
         "title": "Shipment Processing Use Case",
         "description": "A comprehensive integration that processes shipment CSV files from SFTP, enriches data, stores in database, generates reports, and sends email notifications.",
         "icon": "integration",
-        "zipName": "shipment-processor.zip",
         "isEnabled": true
     },
     {
@@ -50,7 +45,6 @@
         "title": "Real-Time Error Notifier",
         "description": "Continuously monitors application logs in real time, detects critical errors, and instantly sends alerts to a designated Slack channel.",
         "icon": "integration",
-        "zipName": "real-time-error-notifier.zip",
         "isEnabled": true
     },
     {
@@ -59,7 +53,6 @@
         "title": "Scheduled Logger",
         "description": "A scheduled task that logs the current timestamp every five seconds. Useful for tracking time-based executions.",
         "icon": "automation",
-        "zipName": "scheduled-logger.zip",
         "isEnabled": true
     },
     {
@@ -68,7 +61,6 @@
         "title": "Pizza Order Management Agent",
         "description": "An AI-powered agent for managing pizza orders, developed with Ballerina Copilot, that assists with order management workflows.",
         "icon": "ai",
-        "zipName": "pizza-shop-integration.zip",
         "isEnabled": true
     },
     {
@@ -77,7 +69,6 @@
         "title": "Weather-Based Music Recommender",
         "description": "A REST API that suggests Spotify playlists based on the current weather at your location by fetching real-time weather data.",
         "icon": "api",
-        "zipName": "music-for-weather.zip",
         "isEnabled": true
     },
     {
@@ -86,7 +77,6 @@
         "title": "Math Tutor",
         "description": "An AI-powered math tutor that uses Azure OpenAI's GPT models to assist with specific mathematical operations like sum, multiply, and square root.",
         "icon": "ai",
-        "zipName": "math-tutor.zip",
         "isEnabled": true
     },
     {
@@ -95,7 +85,6 @@
         "title": "AI Chat Agent for HR Information",
         "description": "An AI-powered chat agent that provides assistance with HR-related inquiries by referencing company-specific HR policies using RAG with Pinecone vector database.",
         "icon": "ai",
-        "zipName": "hr-ai-chat-agent.zip",
         "isEnabled": true
     },
     {
@@ -104,7 +93,6 @@
         "title": "JSON to XML Converter",
         "description": "A REST API that converts incoming JSON payloads into XML format and returns the transformed response.",
         "icon": "api",
-        "zipName": "json-to-xml-converter.zip",
         "isEnabled": true
     },
     {
@@ -113,7 +101,6 @@
         "title": "Currency Converter API",
         "description": "A REST API that converts currency from one unit to another using an external exchange rate API with Redis caching for improved performance.",
         "icon": "api",
-        "zipName": "currency-converter.zip",
         "isEnabled": true
     },
     {
@@ -122,7 +109,6 @@
         "title": "Daily Email Notifier",
         "description": "A scheduled task that sends a daily email update at 8 AM using the Gmail API, demonstrating integration with external email services.",
         "icon": "automation",
-        "zipName": "daily-email-notifier.zip",
         "isEnabled": true
     },
     {
@@ -131,7 +117,6 @@
         "title": "Hello World Service",
         "description": "A basic REST API that responds with a personalized greeting when accessed, sending back a hello message based on the query parameter provided.",
         "icon": "api",
-        "zipName": "hello-world-service.zip",
         "isEnabled": true
     }
 ]
